@@ -1,5 +1,5 @@
 // n番目のフィボナッチ数を返却
-const fibonacci = (n) => {
+exports.fibonacci = function (n) {
   switch (n) {
     case 0:
       return 0;
@@ -13,8 +13,7 @@ const fibonacci = (n) => {
         arr.push(nextNum);
         arr.shift();
       }
+      // need fix bigInt
       return arr[1];
   }
 };
-// need fix bigInt
-console.log(fibonacci(100));
