@@ -1,12 +1,13 @@
 {
   "name": "math",
   "version": "0.0.0",
-  "description": "",
+  "description": "mathematics",
+  "private": "true",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ."
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "ken7253",
+  "license": "MIT"
 }
