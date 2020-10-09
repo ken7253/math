@@ -1,3 +1,6 @@
-const func = require('./function_module/fibonacci');
+const fibo = require('./function_module/fibonacci');
+const coll = require('./function_module/collatz');
 
-console.log(func.fibonacci(100));
+const result = coll.collatz(27);
+
+console.log(result);
